@@ -1,5 +1,4 @@
-// Roll No: CCE22041
-// Application: Smart Home Appliance Control System (Abstraction Demonstration)
+//CCE22006
 
 abstract class Appliance {   // Abstract Class
     String name;
@@ -73,9 +72,8 @@ class AirConditioner extends Appliance {
 }
 
 // Main Class
-public class CCE22041_AbstractionSmartHome {
+public class AbstractionSmartHome {
     public static void main(String[] args) {
-        System.out.println("Roll No: CCE22041");
         System.out.println("=== SMART HOME APPLIANCE CONTROL (Abstraction Demo) ===\n");
 
         Light livingRoomLight = new Light("Living Room", 12, true);
@@ -91,4 +89,5 @@ public class CCE22041_AbstractionSmartHome {
         bedroomAC.turnOn();
         bedroomAC.turnOff();
     }
+
 }
