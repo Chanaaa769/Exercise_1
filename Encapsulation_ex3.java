@@ -1,4 +1,3 @@
-// Roll No: CCE22041
 // Application: Online Food Ordering System (Encapsulation Demonstration)
 
 class FoodOrder {
@@ -54,7 +53,6 @@ class FoodOrder {
 // Main Class
 public class CCE22041_EncapsulationFoodOrder {
     public static void main(String[] args) {
-        System.out.println("Roll No: CCE22041");
         System.out.println("=== ONLINE FOOD ORDERING SYSTEM (Encapsulation Demo) ===\n");
 
         FoodOrder order1 = new FoodOrder("Alice", "Pizza", 2, 250.0);
@@ -68,4 +66,5 @@ public class CCE22041_EncapsulationFoodOrder {
         order1.setQuantity(3); // Update quantity
         order1.displayOrder();
     }
+
 }
